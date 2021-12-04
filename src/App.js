@@ -34,15 +34,6 @@ import image29 from "./assets/images/29.jpg";
 import image30 from "./assets/images/30.jpg";
 import image31 from "./assets/images/31.jpg";
 
-import video from "./assets/images/user.mp4";
-import video2 from "./assets/images/user2.mp4";
-import video3 from "./assets/images/user3.mp4";
-import video4 from "./assets/images/user4.mp4";
-import video5 from "./assets/images/user5.mp4";
-import video6 from "./assets/images/user6.mp4";
-import video7 from "./assets/images/user7.mp4";
-import video9 from "./assets/images/user9.mp4";
-
 function App() {
   return (
     <div className="main-container">
@@ -74,7 +65,7 @@ function App() {
               <div className="cercle" />
               <div class="web-cam">
                 <video
-                  src={video}
+                  src={'https://ak.picdn.net/shutterstock/videos/1053123152/preview/stock-footage-happy-pretty-hispanic-latin-gen-z-teen-girl-smiling-face-waving-hand-talking-to-webcam-make-video.webm'}
                   width="147"
                   height="147"
                   loop={true}
@@ -158,7 +149,7 @@ function App() {
                   <div className='eye'/>
                   <h5>Me</h5>
                   <video
-                    src={video}
+                    src={'https://ak.picdn.net/shutterstock/videos/1053123152/preview/stock-footage-happy-pretty-hispanic-latin-gen-z-teen-girl-smiling-face-waving-hand-talking-to-webcam-make-video.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -170,7 +161,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Gustavo Lubin</h5>
                 <video
-                    src={video2}
+                    src={'https://ak.picdn.net/shutterstock/videos/1061687572/preview/stock-footage-happy-young-hip-man-having-a-video-chat-as-seen-from-the-point-of-view-of-a-computer-screen-in-a.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -182,7 +173,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Jocelyn Baptista</h5>
                 <video
-                    src={video3}
+                    src={'https://ak.picdn.net/shutterstock/videos/1029331817/preview/stock-footage-happy-millennial-man-looking-at-camera-talking-laughing-video-calling-on-distant-friend-smiling.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -194,7 +185,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Hanna Calzoni</h5>
                 <video
-                    src={video4}
+                    src={'https://ak.picdn.net/shutterstock/videos/1041034532/preview/stock-footage-portrait-of-joyful-friendly-handsome-black-man-looking-with-cheerful-radiant-toothy-smile-in.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -206,7 +197,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Anika Dias</h5>
                 <video
-                    src={video5}
+                    src={'https://ak.picdn.net/shutterstock/videos/1062408175/preview/stock-footage-happy-old-senior-grey-haired-woman-grandmother-waving-hand-talking-to-web-cam-video-conference.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -218,7 +209,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Mira Levin</h5>
                 <video
-                    src={video6}
+                    src={'https://ak.picdn.net/shutterstock/videos/1068949988/preview/stock-footage-head-shot-smiling-pretty-millennial-indian-ethnicity-woman-looking-at-camera-feeling-confident.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -230,7 +221,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Justin Bergson</h5>
                 <video
-                    src={video7}
+                    src={'https://ak.picdn.net/shutterstock/videos/1070928712/preview/stock-footage-happy-indian-business-man-teacher-talking-to-web-cam-on-conference-video-call-smiling-businessman.webm'}
                     width="100%"
                     height="232"
                     loop={true}
@@ -242,7 +233,7 @@ function App() {
                 <div className='eye'/>
                 <h5>Cheyenne Dorwart</h5>
                 <video
-                    src={video9}
+                    src={'https://ak.picdn.net/shutterstock/videos/5099963/preview/stock-footage-happy-young-man-having-a-video-chat-as-seen-from-the-point-of-view-of-the-computer-screen.webm'}
                     width="100%"
                     height="232"
                     loop={true}
