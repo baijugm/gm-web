@@ -330,7 +330,32 @@ function App() {
           <br/><br/><br/><br/>
           <img src={image27} style={{ borderRadius: "6px" }} />
           <br/><br/><br/><br/>
-          <img src={image28} style={{ borderRadius: "6px" }} />
+          {/* <img src={image28} style={{ borderRadius: "6px" }} /> */}
+          <div className="loading-screen">
+            <div className="user">
+              <div className="cercle" />
+              <div class="web-cam">
+                <video
+                  src={'https://ak.picdn.net/shutterstock/videos/1068949988/preview/stock-footage-head-shot-smiling-pretty-millennial-indian-ethnicity-woman-looking-at-camera-feeling-confident.webm'}
+                  width="147"
+                  height="147"
+                  loop={true}
+                  autoPlay={true}
+                  muted={true}
+                ></video>
+              </div>
+              <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div className="" style={{ color: "#111111", paddingTop: '10px' }}>
+              Please wait, <br/>
+              the meeting host will let you in soon 
+              </div>
+          </div>
         </section>
         <section>
           <div className="section-heading">

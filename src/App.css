@@ -32,6 +32,7 @@
 .loading-screen{
   height: 698px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
