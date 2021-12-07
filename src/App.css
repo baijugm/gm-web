@@ -126,6 +126,27 @@
     background: url(./assets/images/eye.png) no-repeat center center;
     background-size: contain;
   }
+  .rec{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #EF2111;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 7px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  .rec img{
+    height: 20px;
+    padding-right: 4px;
+  }
   
   .div1 { grid-area: 1 / 1 / 2 / 2;}
   .div2 { grid-area: 1 / 2 / 2 / 3;}

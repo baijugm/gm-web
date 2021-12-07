@@ -37,6 +37,7 @@ import image31 from "./assets/images/31.jpg";
 import image32 from "./assets/images/32.jpg";
 import image33 from "./assets/images/33.jpg";
 import image34 from "./assets/images/34.jpg";
+import rec from "./assets/images/record.gif";
 
 function App() {
   return (
@@ -375,7 +376,13 @@ function App() {
           <div className="section-heading">
             <h2>Recording Status</h2>
           </div>
-          <img src={image31} style={{ borderRadius: "6px" }} />
+          <div className='relative'>
+            <div className='rec'>
+              <img src={rec} />
+              Rec
+            </div>
+            <img src={image31} style={{ borderRadius: "6px" }} />
+          </div>
           <br/><br/><br/><br/>
           <img src={image32} style={{ borderRadius: "6px" }} />
         </section>
