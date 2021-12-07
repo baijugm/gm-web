@@ -15,6 +15,7 @@ import image10 from "./assets/images/10.jpg";
 import image11 from "./assets/images/11.jpg";
 import image12 from "./assets/images/12.jpg";
 import image13 from "./assets/images/13.jpg";
+import image13a from "./assets/images/13a.jpg";
 import image14 from "./assets/images/14.jpg";
 import image15 from "./assets/images/15.jpg";
 import image16 from "./assets/images/16.jpg";
@@ -257,6 +258,8 @@ function App() {
           <img src={image12} style={{ borderRadius: "6px" }} />
           <br/><br/><br/><br/>
           <img src={image13} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image13a} style={{ borderRadius: "6px" }} />
         </section>
         <section>
           <div className="section-heading">
