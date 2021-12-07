@@ -34,6 +34,9 @@ import image28 from "./assets/images/28.jpg";
 import image29 from "./assets/images/29.jpg";
 import image30 from "./assets/images/30.jpg";
 import image31 from "./assets/images/31.jpg";
+import image32 from "./assets/images/32.jpg";
+import image33 from "./assets/images/33.jpg";
+import image34 from "./assets/images/34.jpg";
 
 function App() {
   return (
@@ -373,6 +376,16 @@ function App() {
             <h2>Recording Status</h2>
           </div>
           <img src={image31} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image32} style={{ borderRadius: "6px" }} />
+        </section>
+        <section>
+          <div className="section-heading">
+            <h2>Other Details</h2>
+          </div>
+          <img src={image33} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image34} style={{ borderRadius: "6px" }} />
         </section>
       </div>
     </div>
