@@ -26,6 +26,7 @@ import image20 from "./assets/images/20.jpg";
 import image21 from "./assets/images/21.jpg";
 import image22 from "./assets/images/22.jpg";
 import image23 from "./assets/images/23.jpg";
+import image23a from "./assets/images/23a.jpg";
 import image24 from "./assets/images/24.jpg";
 import image25 from "./assets/images/25.jpg";
 import image26 from "./assets/images/26.jpg";
@@ -317,6 +318,8 @@ function App() {
             <h2>Virtual Background</h2>
           </div>
           <img src={image23} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image23a} style={{ borderRadius: "6px" }} />
         </section>
         <section>
           <div className="section-heading">
