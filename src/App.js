@@ -284,6 +284,7 @@ function App() {
           </div>
           <img src={image16} style={{ borderRadius: "6px" }} />
           <br/><br/><br/><br/>
+          <h4 style={{color: '#ffffff'}}>For guest users 👇</h4> <br/>
           <img src={image17} style={{ borderRadius: "6px" }} />
         </section>
         <section>
