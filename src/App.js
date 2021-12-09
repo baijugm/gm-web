@@ -35,6 +35,7 @@ import image28 from "./assets/images/28.jpg";
 import image29 from "./assets/images/29.jpg";
 import image30 from "./assets/images/30.jpg";
 import image31 from "./assets/images/31.jpg";
+import image31a from "./assets/images/31a.jpg";
 import image32 from "./assets/images/32.jpg";
 import image33 from "./assets/images/33.jpg";
 import image34 from "./assets/images/34.jpg";
@@ -387,6 +388,8 @@ function App() {
             </div>
             <img src={image31} style={{ borderRadius: "6px" }} />
           </div>
+          <br/><br/><br/><br/>
+          <img src={image31a} style={{ borderRadius: "6px" }} />
           <br/><br/><br/><br/>
           <img src={image32} style={{ borderRadius: "6px" }} />
         </section>
