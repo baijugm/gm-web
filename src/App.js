@@ -37,6 +37,8 @@ import image30 from "./assets/images/30.jpg";
 import image31 from "./assets/images/31.jpg";
 import image31a from "./assets/images/31a.jpg";
 import image32 from "./assets/images/32.jpg";
+import image32a from "./assets/images/32a.jpg";
+import image32b from "./assets/images/32b.jpg";
 import image33 from "./assets/images/33.jpg";
 import image34 from "./assets/images/34.jpg";
 import image35 from "./assets/images/35.jpg";
@@ -392,6 +394,14 @@ function App() {
           <img src={image31a} style={{ borderRadius: "6px" }} />
           <br/><br/><br/><br/>
           <img src={image32} style={{ borderRadius: "6px" }} />
+        </section>
+        <section>
+          <div className="section-heading">
+            <h2>More Options</h2>
+          </div>
+          <img src={image32a} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image32b} style={{ borderRadius: "6px" }} />
         </section>
         <section>
           <div className="section-heading">
