@@ -28,6 +28,7 @@ import image22 from "./assets/images/22.jpg";
 import image23 from "./assets/images/23.jpg";
 import image23a from "./assets/images/23a.jpg";
 import image24 from "./assets/images/24.jpg";
+import image24a from "./assets/images/24a.jpg";
 import image25 from "./assets/images/25.jpg";
 import image26 from "./assets/images/26.jpg";
 import image27 from "./assets/images/27.jpg";
@@ -330,6 +331,8 @@ function App() {
             <h2>Immersive View</h2>
           </div>
           <img src={image24} style={{ borderRadius: "6px" }} />
+          <br/><br/><br/><br/>
+          <img src={image24a} style={{ borderRadius: "6px" }} />
         </section>
         <section>
           <div className="section-heading">
